@@ -364,15 +364,15 @@ label{
 <h3>Help Form</h3>
 
 <div class="container">
-<form action="connect1.php" method="POST">
+<form action="helprecv.php" method="POST">
 <label for="name">Name</label>
 <input type="text" id="name" name="name" placeholder="Your name..">
 
 <label for="phone">Contact no.</label>
 <input type="text" id="phone" name="phone" placeholder="Your phone number..">
 
-<label for="crime">Crime</label>
-<select id="crime" name="crime" placeholder="--select--">
+<label for="felony">Crime</label>
+<select id="felony" name="felony" placeholder="--select--">
 <option value="robbery">Robbery</option>
 <option value="accident">Accident</option>
 <option value="violence">Violence</option>
@@ -380,8 +380,8 @@ label{
 <option value="kidnapping">Kidnapping</option>
 </select>
 
-<label for="landmark">Landmark</label>
-<select id="landmark" name="landmark" placeholder="--select--">
+<label for="place">Landmark</label>
+<select id="place" name="place" placeholder="--select--">
 <option value="patni pura">Patni Pura</option>
 <option value="Mahatma Gandhi Rd.">Mahatma Gandhi Rd.</option>
 <option value="Khajrana Ganesh Temple">Khajrana Ganesh Temple</option>
