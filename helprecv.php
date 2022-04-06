@@ -40,12 +40,12 @@
                         echo "<td>'".$row['local_helpline']."'</td>";
                     echo "</tr>";
                 echo "</table>";*/
-                echo "<table border='5' class='center' border-style='dotted' margin-top='50px'>";
-                    echo "<tr style='color:white'>";
+                echo "<table border='5' class='center' border-style='dotted' style='margin-top:-350px; width:500px'>";
+                    echo "<tr style='color:white; rowspan=2px'>";
                         echo "<td>police</td>";
                         echo "<td>'".$row['police']."'</td>";
                     echo "</tr>";
-                    echo "<tr style='color:white'>";
+                    echo "<tr style='color:white' width='500'>";
                         echo "<td>hospital</td>";
                         echo "<td>'".$row['hospital']."'</td>";
                     echo "</tr>";
